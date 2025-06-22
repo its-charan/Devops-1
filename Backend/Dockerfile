@@ -11,6 +11,7 @@ COPY package*.json ./
 RUN npm ci --only=production
 
 # Copy app source code
+
 COPY . .
 
 # Expose the port the app runs on
