@@ -4,7 +4,7 @@ const isLocalhost = window.location.hostname === 'localhost' || window.location.
 
 const API_BASE_URL = isLocalhost
   ? 'http://localhost:3000/api'
-  : 'http://3.110.121.186:3000/api'; // your EC2 backend
+  : 'http://13.232.93.60:3000/api'; // your EC2 backend
 
 const api = axios.create({
   baseURL: API_BASE_URL,
